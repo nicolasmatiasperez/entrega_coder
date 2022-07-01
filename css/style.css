@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Spline+Sans+Mono:wght@300;600&display=swap');
+
+*{
+   font-family: "Spline Sans Mono", sans-serif; 
+   padding:0%;
+   margin:0%;
+   box-sizing: border-box;
+   overflow-x: hidden;
+}
+html{
+   font-size: 62.5%; 
+}
+
+h1{
+    color: #131e30;
+    font-size: 4rem;
+}
+h2{
+    color: #00baec;
+    font-size: 3rem;
+}
+h1{
+    color: #ff9504;
+    font-size: 2.7rem;
+}
+
+h1,
+h2,
+h3{
+	font-family: 'Rubik Mono One',monospace;
+}
+
+
+.bg-cadetblue{
+    background-color: cadetblue;
+}
+
+#botonera img{
+    width:  50px;/*tamaño del logo*/
+}
+
+body{
+    background-image: url(../img/patron.jpg); /* patron de fondo*/
+    overflow: auto;
+}
