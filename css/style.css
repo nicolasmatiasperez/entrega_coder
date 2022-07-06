@@ -38,8 +38,25 @@ h3{
 #botonera img{
     width:  50px;/*tamaño del logo*/
 }
+    #botonera ul li a{
+        color:black;
+    }
+        #botonera ul li a:hover{
+            color:aqua;
+
+        }
+
+
+
 
 body{
     background-image: url(../img/patron.jpg); /* patron de fondo*/
     overflow: auto;
+}
+
+footer{
+    display:flex;
+    justify-content:end;
+    align-items: center
+
 }
