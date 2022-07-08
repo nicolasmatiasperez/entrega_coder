@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2{
+    font-family: $mainFont;
+}
+
+h3{
+    font-family: $secondaryFont;
+}
+
+h1{
+    font-size: $textXl;
+}
+
+h2{
+    font-size: $textLg;
+}
+
+h3{
+    font-size:$textSm;
+}
